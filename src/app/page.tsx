@@ -36,6 +36,7 @@ export default function HabitTracker() {
         { id: 1, name: 'Morning Meditation', completionRate: 85, longestStreak: 14, currentStreak: 5 },
         { id: 2, name: 'Read 30 minutes', completionRate: 92, longestStreak: 21, currentStreak: 12 },
         { id: 3, name: 'Exercise', completionRate: 70, longestStreak: 10, currentStreak: 3 },
+        { id: 4, name: 'Software Project', completionRate: 100, longestStreak: 200, currentStreak: 200 },
     ])
 
     const getColorForCompletion = (completion: number) => {
