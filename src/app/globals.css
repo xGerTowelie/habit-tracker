@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import 'react-big-calendar/lib/css/react-big-calendar.css';
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -24,4 +26,28 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Custom styles for react-big-calendar */
+.rbc-calendar {
+  font-family: inherit;
+}
+
+.rbc-header {
+  padding: 10px 3px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.rbc-date-cell {
+  padding: 5px;
+  text-align: center;
+}
+
+.rbc-today {
+  background-color: transparent;
+}
+
+.rbc-off-range-bg {
+  background-color: transparent;
 }
